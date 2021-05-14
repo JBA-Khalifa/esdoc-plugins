@@ -1,6 +1,6 @@
-// hack: depends on esdoc internal class
-const AbstractDoc = require('esdoc/out/src/Doc/AbstractDoc').default;
-const ParamParser = require('esdoc/out/src/Parser/ParamParser').default;
+// hack: depends on esdocs internal class
+const AbstractDoc = require('esdocs/out/src/Doc/AbstractDoc').default;
+const ParamParser = require('esdocs/out/src/Parser/ParamParser').default;
 
 /**
  * Doc Class from test code file.
@@ -27,12 +27,12 @@ class TestDoc extends AbstractDoc {
     this._value.kind = 'test';
   }
 
-  /** set name and testId from special esdoc property. */
+  /** set name and testId from special esdocs property. */
   _$name() {
     super._$name();
 
-    this._value.name = this._node._esdocTestName;
-    this._value.testId = this._node._esdocTestId;
+    this._value.name = this._node._esdocsTestName;
+    this._value.testId = this._node._esdocsTestId;
   }
 
   /** set memberof to use parent test nod and file path. */
@@ -42,7 +42,7 @@ class TestDoc extends AbstractDoc {
     const chain = [];
     let parent = this._node.parent;
     while (parent) {
-      if (parent._esdocTestName) chain.push(parent._esdocTestName);
+      if (parent._esdocsTestName) chain.push(parent._esdocsTestName);
       parent = parent.parent;
     }
 

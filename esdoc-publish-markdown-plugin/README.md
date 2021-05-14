@@ -4,13 +4,13 @@
 **We are waiting for your pull request!**
 
 ## Example
-[example](https://github.com/esdoc/esdoc-plugins/tree/master/esdoc-publish-markdown-plugin/misc/index.md)
+[example](https://github.com/esdocs/esdocs-plugins/tree/master/esdocs-publish-markdown-plugin/misc/index.md)
 
-<img src="https://raw.githubusercontent.com/esdoc/esdoc-plugins/master/esdoc-publish-markdown-plugin/misc/ss.png" width="400px">
+<img src="https://raw.githubusercontent.com/esdocs/esdocs-plugins/master/esdocs-publish-markdown-plugin/misc/ss.png" width="400px">
 
 ## Install
 ```bash
-npm install esdoc-publish-markdown-plugin
+npm install esdocs-publish-markdown-plugin
 ```
 
 ## Config
@@ -20,7 +20,7 @@ npm install esdoc-publish-markdown-plugin
   "destination": "./doc",
   "plugins": [
     {
-      "name": "esdoc-publish-markdown-plugin",
+      "name": "esdocs-publish-markdown-plugin",
       "option": {
         "filename":"README.md"
       }

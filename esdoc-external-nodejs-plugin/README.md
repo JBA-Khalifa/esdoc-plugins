@@ -1,7 +1,7 @@
 # ESDoc External Node.js Plugin
 ## Install
 ```bash
-npm install esdoc-external-nodejs-plugin
+npm install esdocs-external-nodejs-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-external-nodejs-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-external-nodejs-plugin", "option": {"enable": true}}
+    {"name": "esdocs-external-nodejs-plugin", "option": {"enable": true}}
   ]
 }
 ```

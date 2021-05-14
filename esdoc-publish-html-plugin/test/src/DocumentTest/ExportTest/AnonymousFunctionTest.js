@@ -16,7 +16,7 @@ describe('testExportAnonymousFunction', ()=> {
     it('has desc.', ()=>{
       findParent(doc, '[id="static-function-AnonymousFunction"]', '[data-ice="detail"]', (doc)=>{
         assert.includes(doc, 'h3', 'public AnonymousFunction()');
-        assert.includes(doc, '[data-ice="importPath"]', `import AnonymousFunction from 'esdoc-test-fixture/src/Export/AnonymousFunction.js'`);
+        assert.includes(doc, '[data-ice="importPath"]', `import AnonymousFunction from 'esdocs-test-fixture/src/Export/AnonymousFunction.js'`);
       });
     });
   });

@@ -1,7 +1,7 @@
 # ESDoc Coverage Plugin
 ## Install
 ```
-npm install esdoc-coverage-plugin
+npm install esdocs-coverage-plugin
 ```
 
 ## Config
@@ -11,7 +11,7 @@ npm install esdoc-coverage-plugin
   "destination": "./doc",
   "plugins": [
     {
-      "name": "esdoc-coverage-plugin", 
+      "name": "esdocs-coverage-plugin", 
       "option": {
         "enable": true,
         "kind": ["class", "method", "member", "get", "set", "constructor", "function", "variable"]

@@ -3,7 +3,7 @@
 
 ## Install
 ```bash
-npm install esdoc-flow-type-plugin
+npm install esdocs-flow-type-plugin
 ```
 
 ## Config
@@ -12,7 +12,7 @@ npm install esdoc-flow-type-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-flow-type-plugin", "option": {"enable": true}}
+    {"name": "esdocs-flow-type-plugin", "option": {"enable": true}}
   ]
 }
 ```

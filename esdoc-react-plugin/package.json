@@ -1,23 +1,23 @@
 {
-  "name": "esdoc-react-plugin",
+  "name": "esdocs-react-plugin",
   "version": "1.2.0",
   "description": "A React plugin for ESDoc [PoC]",
   "author": {
     "name": "JBA-Khalifa",
     "url": "https://linktr.ee/iamkhalifamba"
   },
-  "homepage": "https://github.com/setheum-js/esdoc-plugins",
+  "homepage": "https://github.com/setheum-js/esdocs-plugins",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/setheum-js/esdoc-plugins"
+    "url": "https://github.com/setheum-js/esdocs-plugins"
   },
   "dependencies": {
     "cheerio": "1.0.0-rc.1"
   },
   "devDependencies": {
-    "esdoc": "latest",
-    "esdoc-standard-plugin": "latest",
+    "esdocs": "latest",
+    "esdocs-standard-plugin": "latest",
     "mocha": "2.5.3"
   },
   "engines": {
@@ -27,7 +27,7 @@
     "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
   },
   "keywords": [
-    "esdoc",
+    "esdocs",
     "react",
     "plugin"
   ],

@@ -14,11 +14,11 @@ export default class MyClass extends React.Component {
 }
 ```
 
-<img src="https://raw.githubusercontent.com/esdoc/esdoc-plugins/master/esdoc-react-plugin/misc/ss.png" width="400px">
+<img src="https://raw.githubusercontent.com/esdocs/esdocs-plugins/master/esdocs-react-plugin/misc/ss.png" width="400px">
 
 ## Install
 ```bash
-npm install esdoc-react-plugin
+npm install esdocs-react-plugin
 ```
 
 ## Config
@@ -27,14 +27,14 @@ npm install esdoc-react-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-standard-plugin"},
-    {"name": "esdoc-react-plugin"}
+    {"name": "esdocs-standard-plugin"},
+    {"name": "esdocs-react-plugin"}
   ]
 }
 ```
 
 ## Dependency
-- esdoc-standard-plugin
+- esdocs-standard-plugin
 
 ## LICENSE
 MIT

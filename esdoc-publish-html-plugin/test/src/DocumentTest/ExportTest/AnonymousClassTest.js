@@ -6,7 +6,7 @@ describe('TestExportAnonymousClass', ()=> {
 
   describe('in self detail', ()=> {
     it('is named with anonymous.', ()=> {
-      assert.includes(doc, '[data-ice="importPath"]', `import AnonymousClass from 'esdoc-test-fixture/src/Export/AnonymousClass.js'`);
+      assert.includes(doc, '[data-ice="importPath"]', `import AnonymousClass from 'esdocs-test-fixture/src/Export/AnonymousClass.js'`);
       assert.includes(doc, '.self-detail [data-ice="name"]', 'AnonymousClass');
     });
   });

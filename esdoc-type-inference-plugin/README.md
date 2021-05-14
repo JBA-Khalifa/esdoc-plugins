@@ -2,7 +2,7 @@
 **This is Proof of Concept**
 ## Install
 ```bash
-npm install esdoc-type-inference-plugin
+npm install esdocs-type-inference-plugin
 ```
 
 ## Config
@@ -11,7 +11,7 @@ npm install esdoc-type-inference-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-type-inference-plugin", "option": {"enable": true}}
+    {"name": "esdocs-type-inference-plugin", "option": {"enable": true}}
   ]
 }
 ```

@@ -181,13 +181,13 @@ describe('test manual', ()=>{
     it('has installation', ()=>{
       const doc = readDoc('manual/installation.html');
       assert.includes(doc, '.github-markdown h1', 'Installation');
-      assert.includes(doc, '.github-markdown[data-ice="content"]', 'npm install -g esdoc');
+      assert.includes(doc, '.github-markdown[data-ice="content"]', 'npm install -g esdocs');
     });
 
     it('has usage', ()=>{
       const doc = readDoc('manual/usage1.html');
       assert.includes(doc, '.github-markdown h1:nth-of-type(1)', 'Usage');
-      assert.includes(doc, '.github-markdown[data-ice="content"]', 'esdoc -c esdoc.json');
+      assert.includes(doc, '.github-markdown[data-ice="content"]', 'esdocs -c esdocs.json');
     });
 
     it('has tutorial', ()=>{
