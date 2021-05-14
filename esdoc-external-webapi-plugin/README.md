@@ -1,7 +1,7 @@
 # ESDoc External WebAPI Plugin
 ## Install
 ```bash
-npm install esdoc-external-webapi-plugin
+npm install esdocs-external-webapi-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-external-webapi-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-external-webapi-plugin", "option": {"enable": true}}
+    {"name": "esdocs-external-webapi-plugin", "option": {"enable": true}}
   ]
 }
 ```

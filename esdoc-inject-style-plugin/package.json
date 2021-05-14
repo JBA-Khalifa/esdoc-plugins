@@ -1,5 +1,5 @@
 {
-  "name": "esdoc-inject-style-plugin",
+  "name": "esdocs-inject-style-plugin",
   "version": "1.2.0",
   "description": "A inject style plugin for ESDoc",
   "dependencies": {
@@ -7,7 +7,7 @@
     "fs-extra": "1.0.0"
   },
   "devDependencies": {
-    "esdoc": "latest",
+    "esdocs": "latest",
     "mocha": "2.5.3"
   },
   "engines": {
@@ -17,7 +17,7 @@
     "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
   },
   "keywords": [
-    "esdoc",
+    "esdocs",
     "inject",
     "style",
     "plugin"

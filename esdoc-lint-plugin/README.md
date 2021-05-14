@@ -1,7 +1,7 @@
 # ESDoc Lint Plugin
 ## Install
 ```bash
-npm install esdoc-lint-plugin
+npm install esdocs-lint-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-lint-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-lint-plugin", "option": {"enable": true}}
+    {"name": "esdocs-lint-plugin", "option": {"enable": true}}
   ]
 }
 ```

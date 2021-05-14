@@ -15,7 +15,7 @@ describe('TestClassDefinition:', ()=> {
   describe('in header', ()=>{
     it('has header notice.', ()=> {
       find(doc, '[data-ice="content"] .header-notice', (doc)=> {
-        assert.includes(doc, '[data-ice="importPath"]', "import TestClassDefinition from 'esdoc-test-fixture'");
+        assert.includes(doc, '[data-ice="importPath"]', "import TestClassDefinition from 'esdocs-test-fixture'");
         assert.includes(doc, '[data-ice="access"]', 'public');
         assert.includes(doc, '[data-ice="kind"]', 'class');
         assert.includes(doc, '[data-ice="source"]', 'source');

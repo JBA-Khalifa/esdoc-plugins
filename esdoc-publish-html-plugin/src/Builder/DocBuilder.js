@@ -5,7 +5,7 @@ import escape from 'escape-html';
 import IceCap from 'ice-cap';
 import {shorten, parseExample, escapeURLHash} from './util.js';
 import DocResolver from './DocResolver.js';
-import NPMUtil from 'esdoc/out/src/Util/NPMUtil.js';
+import NPMUtil from 'esdocs/out/src/Util/NPMUtil.js';
 
 /**
  * Builder base class.
@@ -153,9 +153,9 @@ export default class DocBuilder {
 
     const packageObj = NPMUtil.findPackage();
     if (packageObj) {
-      ice.text('esdocVersion', `(${packageObj.version})`);
+      ice.text('esdocsVersion', `(${packageObj.version})`);
     } else {
-      ice.drop('esdocVersion');
+      ice.drop('esdocsVersion');
     }
 
     const existTest = this._tags.find(tag => tag.kind.indexOf('test') === 0);
@@ -683,7 +683,7 @@ export default class DocBuilder {
 
         // edge case: if object key includes comma, this parsing is broken.
         // e.g. {"a,b": 10}
-        // https://github.com/esdoc/esdoc-plugins/pull/49
+        // https://github.com/esdocs/esdocs-plugins/pull/49
         if (!tmp[0] || !tmp[1]) {
           broken = true;
           return;

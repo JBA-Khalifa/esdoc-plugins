@@ -1,7 +1,7 @@
 # ESDoc Undocumented Identifier Plugin
 ## Install
 ```bash
-npm install esdoc-undocumented-identifier-plugin
+npm install esdocs-undocumented-identifier-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-undocumented-identifier-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-undocumented-identifier-plugin", "option": {"enable": true}}
+    {"name": "esdocs-undocumented-identifier-plugin", "option": {"enable": true}}
   ]
 }
 ```

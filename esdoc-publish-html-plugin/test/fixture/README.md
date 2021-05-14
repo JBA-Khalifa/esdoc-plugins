@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/esdoc/esdoc.svg?branch=master)](https://travis-ci.org/esdoc/esdoc)
-[![Coverage Status](https://coveralls.io/repos/esdoc/esdoc/badge.svg)](https://coveralls.io/r/esdoc/esdoc)
+[![Build Status](https://travis-ci.org/esdocs/esdocs.svg?branch=master)](https://travis-ci.org/esdocs/esdocs)
+[![Coverage Status](https://coveralls.io/repos/esdocs/esdocs/badge.svg)](https://coveralls.io/r/esdocs/esdocs)
 
 # ESDoc Test Fixture
 this is ESDoc Test Fixture README.
@@ -11,7 +11,7 @@ this is ESDoc Test Fixture README.
 1st line.
 second line.
 
-http://github.com/h13i32maru/esdoc
+http://github.com/h13i32maru/esdocs
 
 ```javascript
 export default class Foo {

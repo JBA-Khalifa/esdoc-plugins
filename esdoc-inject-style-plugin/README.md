@@ -1,7 +1,7 @@
 # ESDoc Inject Style Plugin
 ## Install
 ```bash
-npm install esdoc-inject-style-plugin
+npm install esdocs-inject-style-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-inject-style-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-inject-style-plugin", "option": {"enable": true, "styles": ["./foo.css"]}}
+    {"name": "esdocs-inject-style-plugin", "option": {"enable": true, "styles": ["./foo.css"]}}
   ]
 }
 ```

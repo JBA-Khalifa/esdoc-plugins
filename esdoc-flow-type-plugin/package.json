@@ -1,21 +1,21 @@
 {
-  "name": "esdoc-flow-type-plugin",
+  "name": "esdocs-flow-type-plugin",
   "version": "1.2.0",
   "description": "A flow type plugin for ESDoc [PoC]",
   "author": {
     "name": "JBA-Khalifa",
     "url": "https://linktr.ee/iamkhalifamba"
   },
-  "homepage": "https://github.com/setheum-js/esdoc-plugins",
+  "homepage": "https://github.com/setheum-js/esdocs-plugins",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/setheum-js/esdoc-plugins"
+    "url": "https://github.com/setheum-js/esdocs-plugins"
   },
   "devDependencies": {
-    "esdoc": "latest",
+    "esdocs": "latest",
     "mocha": "2.5.3",
-    "esdoc-standard-plugin": "latest"
+    "esdocs-standard-plugin": "latest"
   },
   "engines": {
     "node": ">= 6.0.0"
@@ -24,7 +24,7 @@
     "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
   },
   "keywords": [
-    "esdoc",
+    "esdocs",
     "flow",
     "plugin"
   ],

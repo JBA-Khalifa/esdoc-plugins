@@ -1,9 +1,9 @@
 {
-  "name": "esdoc-integrate-manual-plugin",
+  "name": "esdocs-integrate-manual-plugin",
   "version": "1.2.0",
   "description": "A integrate manual plugin for ESDoc",
   "devDependencies": {
-    "esdoc": "latest",
+    "esdocs": "latest",
     "mocha": "2.5.3"
   },
   "engines": {
@@ -13,7 +13,7 @@
     "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
   },
   "keywords": [
-    "esdoc",
+    "esdocs",
     "manual",
     "plugin"
   ],

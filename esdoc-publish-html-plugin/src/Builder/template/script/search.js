@@ -1,5 +1,5 @@
 (function(){
-  var searchIndex = window.esdocSearchIndex;
+  var searchIndex = window.esdocsSearchIndex;
   var searchBox = document.querySelector('.search-box');
   var input = document.querySelector('.search-input');
   var result = document.querySelector('.search-result');

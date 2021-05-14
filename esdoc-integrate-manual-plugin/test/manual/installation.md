@@ -1,7 +1,7 @@
 # Installation
 
 ```sh
-npm install -g esdoc
+npm install -g esdocs
 ```
 
 ## indent 2

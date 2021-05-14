@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install esdoc-inject-gtm-plugin
+npm install esdocs-inject-gtm-plugin
 ```
 
 ## Config
@@ -13,7 +13,7 @@ npm install esdoc-inject-gtm-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-inject-script-plugin", "option": {"enable": true, "id": "GTM-XXXXX"}}
+    {"name": "esdocs-inject-script-plugin", "option": {"enable": true, "id": "GTM-XXXXX"}}
   ]
 }
 ```

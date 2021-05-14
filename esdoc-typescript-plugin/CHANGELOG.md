@@ -2,7 +2,7 @@
 
 ## Next
 - **Fix**
-  - Crash if overload methods ([#42](https://github.com/esdoc/esdoc-plugins/pull/42)). Thanks [@tchakabam](https://github.com/tchakabam)
+  - Crash if overload methods ([#42](https://github.com/esdocs/esdocs-plugins/pull/42)). Thanks [@tchakabam](https://github.com/tchakabam)
 - **Chore**
   - Update typescript
 

@@ -6,13 +6,13 @@ describe('test export variable', ()=> {
 
   it('has default import path with direct variable definition.', ()=> {
     findParent(doc, '[id="static-variable-testExportVariable1"]', '[data-ice="detail"]', (doc)=>{
-      assert.includes(doc, '[data-ice="importPath"]', `import testExportVariable1 from 'esdoc-test-fixture/src/Export/Variable.js'`);
+      assert.includes(doc, '[data-ice="importPath"]', `import testExportVariable1 from 'esdocs-test-fixture/src/Export/Variable.js'`);
     });
   });
 
   it('has named import path with direct variable definition.', ()=>{
     findParent(doc, '[id="static-variable-testExportVariable2"]', '[data-ice="detail"]', (doc)=>{
-      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable2} from 'esdoc-test-fixture/src/Export/Variable.js'`);
+      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable2} from 'esdocs-test-fixture/src/Export/Variable.js'`);
     });
   });
 
@@ -27,23 +27,23 @@ describe('test export variable', ()=> {
 
   it('has named import path with none doc comment', ()=>{
     findParent(doc, '[id="static-variable-testExportVariable4"]', '[data-ice="detail"]', (doc)=>{
-      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable4} from 'esdoc-test-fixture/src/Export/Variable.js'`);
+      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable4} from 'esdocs-test-fixture/src/Export/Variable.js'`);
     });
 
     findParent(doc, '[id="static-variable-testExportVariable5"]', '[data-ice="detail"]', (doc)=>{
-      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable5} from 'esdoc-test-fixture/src/Export/Variable.js'`);
+      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable5} from 'esdocs-test-fixture/src/Export/Variable.js'`);
     });
   });
 
   it('has named import path with indirect variable definition.', ()=>{
     findParent(doc, '[id="static-variable-testExportVariable6"]', '[data-ice="detail"]', (doc)=>{
-      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable6} from 'esdoc-test-fixture/src/Export/Variable.js'`);
+      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable6} from 'esdocs-test-fixture/src/Export/Variable.js'`);
     });
   });
 
   it('has named import path with unknown type.', ()=>{
     findParent(doc, '[id="static-variable-testExportVariable7"]', '[data-ice="detail"]', (doc)=>{
-      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable7} from 'esdoc-test-fixture/src/Export/Variable.js'`);
+      assert.includes(doc, '[data-ice="importPath"]', `import {testExportVariable7} from 'esdocs-test-fixture/src/Export/Variable.js'`);
     });
   });
 });

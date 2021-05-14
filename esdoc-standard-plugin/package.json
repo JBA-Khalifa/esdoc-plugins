@@ -1,32 +1,32 @@
 {
-  "name": "esdoc-standard-plugin",
+  "name": "esdocs-standard-plugin",
   "version": "1.2.0",
   "description": "A standard plugin for ESDoc",
   "author": {
     "name": "JBA-Khalifa",
     "url": "https://linktr.ee/iamkhalifamba"
   },
-  "homepage": "https://github.com/setheum-js/esdoc-plugins",
+  "homepage": "https://github.com/setheum-js/esdocs-plugins",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/setheum-js/esdoc-plugins"
+    "url": "https://github.com/setheum-js/esdocs-plugins"
   },
   "dependencies": {
-    "esdoc-lint-plugin": "^1.0.0",
-    "esdoc-coverage-plugin": "^1.0.0",
-    "esdoc-accessor-plugin": "^1.0.0",
-    "esdoc-external-ecmascript-plugin": "^1.0.0",
-    "esdoc-brand-plugin": "^1.0.0",
-    "esdoc-undocumented-identifier-plugin": "^1.0.0",
-    "esdoc-unexported-identifier-plugin": "^1.0.0",
-    "esdoc-publish-html-plugin": "^1.0.0",
-    "esdoc-type-inference-plugin": "^1.0.0",
-    "esdoc-integrate-manual-plugin": "^1.0.0",
-    "esdoc-integrate-test-plugin": "^1.0.0"
+    "esdocs-lint-plugin": "^1.0.0",
+    "esdocs-coverage-plugin": "^1.0.0",
+    "esdocs-accessor-plugin": "^1.0.0",
+    "esdocs-external-ecmascript-plugin": "^1.0.0",
+    "esdocs-brand-plugin": "^1.0.0",
+    "esdocs-undocumented-identifier-plugin": "^1.0.0",
+    "esdocs-unexported-identifier-plugin": "^1.0.0",
+    "esdocs-publish-html-plugin": "^1.0.0",
+    "esdocs-type-inference-plugin": "^1.0.0",
+    "esdocs-integrate-manual-plugin": "^1.0.0",
+    "esdocs-integrate-test-plugin": "^1.0.0"
   },
   "devDependencies": {
-    "esdoc": "latest",
+    "esdocs": "latest",
     "mocha": "2.5.3"
   },
   "engines": {
@@ -36,7 +36,7 @@
     "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
   },
   "keywords": [
-    "esdoc",
+    "esdocs",
     "standard",
     "plugin"
   ],

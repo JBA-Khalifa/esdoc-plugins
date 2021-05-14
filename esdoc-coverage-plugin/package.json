@@ -1,19 +1,19 @@
 {
-  "name": "esdoc-coverage-plugin",
+  "name": "esdocs-coverage-plugin",
   "version": "1.2.0",
   "description": "A coverage plugin for ESDoc",
   "author": {
     "name": "JBA-Khalifa",
     "url": "https://linktr.ee/iamkhalifamba"
   },
-  "homepage": "https://github.com/setheum-js/esdoc-plugins",
+  "homepage": "https://github.com/setheum-js/esdocs-plugins",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/setheum-js/esdoc-plugins"
+    "url": "https://github.com/setheum-js/esdocs-plugins"
   },
   "devDependencies": {
-    "esdoc": "latest",
+    "esdocs": "latest",
     "mocha": "2.5.3"
   },
   "engines": {
@@ -23,7 +23,7 @@
     "test": "rm -rf ./test/out && mocha --require ./test/init.js $(find test/ -regex '.*.test.js$') -R spec"
   },
   "keywords": [
-    "esdoc",
+    "esdocs",
     "coverage",
     "plugin"
   ],

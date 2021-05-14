@@ -1,7 +1,7 @@
 const path = require('path');
 const cheerio = require('cheerio');
-const ParamParser = require('esdoc/out/src/Parser/ParamParser').default;
-const DocBuilder = require('esdoc-publish-html-plugin/out/src/Builder/DocBuilder').default;
+const ParamParser = require('esdocs/out/src/Parser/ParamParser').default;
+const DocBuilder = require('esdocs-publish-html-plugin/out/src/Builder/DocBuilder').default;
 
 class Plugin {
   constructor() {
@@ -44,7 +44,7 @@ class Plugin {
     });
     if (!doc) return;
 
-    // create esdoc properties from react props
+    // create esdocs properties from react props
     const properties = doc.reactProps.map(reactProp => {
       const {typeText, paramName, paramDesc} = ParamParser.parseParamValue(reactProp.tagValue);
       return ParamParser.parseParam(typeText, paramName, paramDesc);

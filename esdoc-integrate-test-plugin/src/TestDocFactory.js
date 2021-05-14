@@ -2,7 +2,7 @@ const assert = require('assert');
 const TestDoc = require('./TestDoc');
 const TestFileDoc = require('./TestFileDoc');
 // hack: depends on ESDoc internal class
-const CommentParser = require('esdoc/out/src/Parser/CommentParser').default;
+const CommentParser = require('esdocs/out/src/Parser/CommentParser').default;
 
 const already = Symbol('already');
 
@@ -93,8 +93,8 @@ class TestDocFactory {
     }
 
     const uniqueId = this.constructor._getUniqueId();
-    expression._esdocTestId = uniqueId;
-    expression._esdocTestName = expression.callee.name + uniqueId;
+    expression._esdocsTestId = uniqueId;
+    expression._esdocsTestName = expression.callee.name + uniqueId;
 
     const testDoc = new TestDoc(this._ast, expression, this._pathResolver, tags);
 

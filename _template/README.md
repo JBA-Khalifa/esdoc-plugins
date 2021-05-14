@@ -1,7 +1,7 @@
 # ESDoc Template Plugin
 ## Install
 ```bash
-npm install esdoc-template-plugin
+npm install esdocs-template-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-template-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-template-plugin", "option": {"foo": true}}
+    {"name": "esdocs-template-plugin", "option": {"foo": true}}
   ]
 }
 ```

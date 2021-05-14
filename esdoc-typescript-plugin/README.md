@@ -3,7 +3,7 @@
 
 ## Install
 ```bash
-npm install esdoc-typescript-plugin
+npm install esdocs-typescript-plugin
 ```
 
 ## Config
@@ -12,7 +12,7 @@ npm install esdoc-typescript-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-typescript-plugin", "option": {"enable": true}}
+    {"name": "esdocs-typescript-plugin", "option": {"enable": true}}
   ]
 }
 ```

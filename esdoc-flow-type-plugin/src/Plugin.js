@@ -1,6 +1,6 @@
-const ASTUtil = require('esdoc/out/src/Util/ASTUtil').default;
-const CommentParser = require('esdoc/out/src/Parser/CommentParser').default;
-const InvalidCodeLogger = require('esdoc/out/src/Util/InvalidCodeLogger').default;
+const ASTUtil = require('esdocs/out/src/Util/ASTUtil').default;
+const CommentParser = require('esdocs/out/src/Parser/CommentParser').default;
+const InvalidCodeLogger = require('esdocs/out/src/Util/InvalidCodeLogger').default;
 
 function formatExpression(expr) {
   switch (expr.type) {

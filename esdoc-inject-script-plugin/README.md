@@ -1,7 +1,7 @@
 # ESDoc Inject Script Plugin
 ## Install
 ```bash
-npm install esdoc-inject-script-plugin
+npm install esdocs-inject-script-plugin
 ```
 
 ## Config
@@ -10,7 +10,7 @@ npm install esdoc-inject-script-plugin
   "source": "./src",
   "destination": "./doc",
   "plugins": [
-    {"name": "esdoc-inject-script-plugin", "option": {"enable": true, "scripts": ["./foo.js"]}}
+    {"name": "esdocs-inject-script-plugin", "option": {"enable": true, "scripts": ["./foo.js"]}}
   ]
 }
 ```

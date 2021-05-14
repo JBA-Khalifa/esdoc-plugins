@@ -33,6 +33,6 @@ export {testExportVariable6};
 
 /**
  * this is testExportVariable7 with unknown type.
- * @see https://github.com/esdoc/esdoc/issues/75
+ * @see https://github.com/esdocs/esdocs/issues/75
  */
 export const testExportVariable7 = new foo.Bar();

@@ -1,10 +1,10 @@
 # Usage
 
 ```sh
-esdoc -c esdoc.json
+esdocs -c esdocs.json
 ```
 
-``esdoc.json``
+``esdocs.json``
 
 ```json
 {
