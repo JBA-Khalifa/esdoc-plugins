@@ -39,5 +39,6 @@ This plugin takes a title and a repository from `package.json (name, repsitory)`
 ## LICENSE
 MIT
 
-## Author
+## Authors
+[Muhammad-Jibril B.A. @JBA-Khalifa](https://github.com/JBA-Khalifa)
 [Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)

@@ -24,6 +24,7 @@ npm install esdoc-inject-gtm-plugin
 
 MIT
 
-## Author
+## Authors
 
+[Muhammad-Jibril B.A. @JBA-Khalifa](https://github.com/JBA-Khalifa)
 [9renpoto](https://github.com/9renpoto)

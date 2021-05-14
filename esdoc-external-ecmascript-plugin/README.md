@@ -20,5 +20,6 @@ npm install esdoc-external-ecmascript-plugin
 ## LICENSE
 MIT
 
-## Author
+## Authors
+[Muhammad-Jibril B.A. @JBA-Khalifa](https://github.com/JBA-Khalifa)
 [Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)
