@@ -1,4 +1,4 @@
-[![](https://travis-ci.org/esdoc/esdoc-plugins.svg?branch=master)](https://travis-ci.org/esdoc/esdoc-plugins)
+[![](https://travis-ci.org/setheum-js/esdoc-plugins.svg?branch=master)](https://travis-ci.org/setheum-js/esdoc-plugins)
 # ESDoc Plugins
 
 This repository is official plugins for ESDoc.

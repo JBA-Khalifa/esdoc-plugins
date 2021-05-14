@@ -74,5 +74,6 @@ The `esdoc-standard-plugin` is a glue plugin. The following plugins are used by 
 ## LICENSE
 MIT
 
-## Author
+## Authors
+[Muhammad-Jibril B.A. @JBA-Khalifa](https://github.com/JBA-Khalifa)
 [Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)

@@ -1,13 +1,16 @@
 {
   "name": "esdoc-publish-html-plugin",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A publish HTML plugin for ESDoc",
-  "author": "h13i32maru",
-  "homepage": "https://github.com/esdoc/esdoc-plugins",
+  "author": {
+    "name": "JBA-Khalifa",
+    "url": "https://linktr.ee/iamkhalifamba"
+  },
+  "homepage": "https://github.com/setheum-js/esdoc-plugins",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/esdoc/esdoc-plugins"
+    "url": "https://github.com/setheum-js/esdoc-plugins"
   },
   "dependencies": {
     "cheerio": "0.22.0",
@@ -15,7 +18,7 @@
     "escape-html": "1.0.3",
     "babel-generator": "6.11.4",
     "ice-cap": "0.0.4",
-    "marked": "0.3.19",
+    "marked": "2.0.3",
     "taffydb": "2.7.2"
   },
   "devDependencies": {

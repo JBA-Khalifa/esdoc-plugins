@@ -1,14 +1,7 @@
 {
   "name": "esdoc-integrate-manual-plugin",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A integrate manual plugin for ESDoc",
-  "author": "h13i32maru",
-  "homepage": "https://github.com/esdoc/esdoc-plugins",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/esdoc/esdoc-plugins"
-  },
   "devDependencies": {
     "esdoc": "latest",
     "mocha": "2.5.3"
