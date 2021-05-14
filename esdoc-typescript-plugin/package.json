@@ -1,13 +1,16 @@
 {
   "name": "esdoc-typescript-plugin",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A TypeScript plugin for ESDoc [PoC]",
-  "author": "h13i32maru",
-  "homepage": "https://github.com/esdoc/esdoc-plugins",
+  "author": {
+    "name": "JBA-Khalifa",
+    "url": "https://linktr.ee/iamkhalifamba"
+  },
+  "homepage": "https://github.com/setheum-js/esdoc-plugins",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/esdoc/esdoc-plugins"
+    "url": "https://github.com/setheum-js/esdoc-plugins"
   },
   "dependencies": {
     "typescript": "^2.8.3"

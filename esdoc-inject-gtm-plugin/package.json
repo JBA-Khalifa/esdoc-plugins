@@ -1,11 +1,16 @@
 {
   "name": "esdoc-inject-gtm-plugin",
   "description": "A inject google-tag-manager plugin for ESDoc",
-  "version": "0.0.1",
-  "author": "9renpoto",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "fs-extra": "^4.0.1"
+  "version": "1.2.0",
+  "author": {
+    "name": "JBA-Khalifa",
+    "url": "https://linktr.ee/iamkhalifamba"
+  },
+  "homepage": "https://github.com/setheum-js/esdoc-plugins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/setheum-js/esdoc-plugins"
   },
   "devDependencies": {
     "esdoc": "latest",

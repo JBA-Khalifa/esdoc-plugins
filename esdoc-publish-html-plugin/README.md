@@ -26,5 +26,6 @@ We recommend that you base on [the original template](https://github.com/esdoc/e
 ## LICENSE
 MIT
 
-## Author
+## Authors
+[Muhammad-Jibril B.A. @JBA-Khalifa](https://github.com/JBA-Khalifa)
 [Ryo Maruyama@h13i32maru](https://github.com/h13i32maru)
